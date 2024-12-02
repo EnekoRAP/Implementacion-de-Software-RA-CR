@@ -11,7 +11,6 @@
     <div id="kt_app_root">
         <!-- Sidebar -->
         <?php include 'layouts/sidebar.php'; ?>
-        <?php include 'layouts/footer.php'; ?>
 
         <!-- Contenido Principal -->
         <div id="kt_app_content">
@@ -26,7 +25,10 @@
         </div>
     </div>
 
+    <?php include 'layouts/footer.php'; ?>
+
     <!-- Cargar JS -->
     <script src="assets/js/scripts.bundle.js"></script>
 </body>
+
 </html>
