@@ -1,0 +1,34 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#kt_app_root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.app-layout {
+    display: flex;
+    flex: 1;
+}
+
+#kt_app_root .sidebar {
+    width: 250px;
+}
+
+#kt_app_content {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
