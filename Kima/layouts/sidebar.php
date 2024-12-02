@@ -302,6 +302,7 @@
 
     <?php
     include 'footer.php';
+    ?>
 
     <!--end::Modal dialog-->
     </div>
