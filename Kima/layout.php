@@ -23,14 +23,17 @@
                 
             }
             ?>
+            
+            <!-- Footer -->
+             <div id="kt_app_footer">
+                <?php include 'layouts/footer.php'; ?>
+            
+            </div> 
         </div>
     </div>
 
     <!-- Cargar JS -->
     <script src="assets/js/scripts.bundle.js"></script>
 </body>
-
-<!-- Footer -->
-<?php include 'layouts/footer.php'; ?>
 
 </html>
