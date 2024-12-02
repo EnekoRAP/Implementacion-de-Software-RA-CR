@@ -26,11 +26,11 @@
         </div>
     </div>
 
-    <!-- Footer -->
-    <?php include 'layouts/footer.php'; ?>
-
     <!-- Cargar JS -->
     <script src="assets/js/scripts.bundle.js"></script>
 </body>
+
+<!-- Footer -->
+<?php include 'layouts/footer.php'; ?>
 
 </html>
