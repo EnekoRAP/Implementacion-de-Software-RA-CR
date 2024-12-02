@@ -14,7 +14,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
     <link rel="canonical" href="http://preview.keenthemes.comlayouts/dark-sidebar.html" />
-    <link rel="shortcut icon" href="/Kima/assets/media/logos/favicon.ico" />
+    <link rel="shortcut icon" href="/Kima/assets/media/logos/Logo.png" />
     <!--begin::Fonts(mandatory for all pages)-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
     <!--end::Fonts-->
