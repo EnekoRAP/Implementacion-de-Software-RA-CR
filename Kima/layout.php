@@ -6,6 +6,7 @@
     <title><?php echo isset($title) ? $title : "Mi Proyecto"; ?></title>
     <!-- Cargar CSS -->
     <link href="assets/css/style.bundle.css" rel="stylesheet">
+    <link href="assets/css/styles" reel="stylesheet">
 </head>
 <body id="kt_app_body" class="app-default">
     <div id="kt_app_root">
@@ -25,6 +26,7 @@
         </div>
     </div>
 
+    <!-- Footer -->
     <?php include 'layouts/footer.php'; ?>
 
     <!-- Cargar JS -->
