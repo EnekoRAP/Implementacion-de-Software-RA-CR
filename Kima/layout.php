@@ -11,6 +11,7 @@
     <div id="kt_app_root">
         <!-- Sidebar -->
         <?php include 'layouts/sidebar.php'; ?>
+        <?php include 'layouts/footer.php'; ?>
 
         <!-- Contenido Principal -->
         <div id="kt_app_content">
