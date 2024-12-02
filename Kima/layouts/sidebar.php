@@ -300,10 +300,6 @@
         <!--end::Modal content-->
     </div>
 
-    <?php
-    include 'footer.php';
-    ?>
-
     <!--end::Modal dialog-->
     </div>
     <!--end::Modal - Invite Friend-->
