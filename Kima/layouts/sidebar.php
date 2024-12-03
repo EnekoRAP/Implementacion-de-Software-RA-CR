@@ -97,10 +97,10 @@
                                     data-kt-menu-placement="bottom-start"
                                     class="menu-item menu-lg-down-accordion me-0 me-lg-2">
                                     <!--begin:Menu link-->
-                                    <span class="menu-link">
+                                    <a href="/Kima/pages/Comunicados.php" class="menu-link">
                                         <span class="menu-title">Comunicados</span>
                                         <span class="menu-arrow d-lg-none"></span>
-                                    </span>
+                                    </a>
                                 </div>
                                 <!--end:Menu link-->
 
