@@ -85,10 +85,10 @@
                                     data-kt-menu-placement="bottom-start"
                                     class="menu-item menu-here-bg menu-lg-down-accordion me-0 me-lg-2">
                                     <!--begin:Menu link-->
-                                    <span class="menu-link">
+                                    <a href="/Kima/pages/Inicio.php" class="menu-link">
                                         <span class="menu-title">Inicio</span>
                                         <span class="menu-arrow d-lg-none"></span>
-                                    </span>
+                                    </a>
                                     <!--end:Menu link-->
                                 </div>
                                 <!--end:Menu item-->

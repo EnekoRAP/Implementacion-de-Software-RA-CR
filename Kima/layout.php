@@ -21,7 +21,7 @@
                 if (isset($content)) {
                     include $content;
                 } else {
-                    echo "<div>No se encontró contenido.</div>";
+
                 }
                 ?>
             </div>
