@@ -21,6 +21,8 @@
     <!--begin::Vendor Stylesheets(used for this page only)-->
     <link href="/Kima/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
     <link href="/Kima/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
     <!--end::Vendor Stylesheets-->
     <!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
     <link href="/Kima/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
@@ -85,23 +87,22 @@
                                     data-kt-menu-placement="bottom-start"
                                     class="menu-item menu-here-bg menu-lg-down-accordion me-0 me-lg-2">
                                     <!--begin:Menu link-->
-                                    <a href="/Kima/pages/Inicio.php" class="menu-link">
-                                        <span class="menu-title">Inicio</span>
-                                        <span class="menu-arrow d-lg-none"></span>
-                                    </a>
+                                    <div class="menu-item me-0 me-lg-2">
+                                        <a href="/Kima/index.php" class="menu-link">
+                                            <span class="menu-title">Inicio</span>
+                                        </a>
+                                    </div>
+
                                     <!--end:Menu link-->
                                 </div>
                                 <!--end:Menu item-->
                                 <!--begin:Menu item-->
-                                <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
-                                    data-kt-menu-placement="bottom-start"
-                                    class="menu-item menu-lg-down-accordion me-0 me-lg-2">
-                                    <!--begin:Menu link-->
+                                <div class="menu-item me-0 me-lg-2">
                                     <a href="/Kima/pages/Comunicados.php" class="menu-link">
                                         <span class="menu-title">Comunicados</span>
-                                        <span class="menu-arrow d-lg-none"></span>
                                     </a>
                                 </div>
+
                                 <!--end:Menu link-->
 
                                 <!--end:Menu item-->
@@ -184,11 +185,11 @@
                         data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
                         <!--begin::Logo-->
                         <div class="app-sidebar-logo px-6" id="kt_app_sidebar_logo">
-                            <a href="index.php">
+                            <a href="/Kima/index.php">
                                 <img alt="Logo" src="/Kima/assets/media/logos/default-dark.svg"
                                     class="h-25px app-sidebar-logo-default" />
                                 <img alt="Logo" src="/Kima/assets/media/logos/default-small.svg"
-                                    class="h-20px app-sidebar-logo-KIMA" />
+                                    class="h-20px app-sidebar-logo-default" />
                             </a>
                         </div>
                         <!--end::Logo-->
@@ -203,7 +204,7 @@
                                 <!--begin::Logo-->
                                 <div class="app-sidebar-logo px-6" id="kt_app_sidebar_logo">
                                     <!--begin::Logo image-->
-                                    <a href="index.html">
+                                    <a href="/Kima/index.php">
                                         <img alt="Logo" src="/Kima/assets/media/logos/default-dark.svg"
                                             class="h-25px app-sidebar-logo-default" />
                                         <img alt="Logo" src="/Kima/assets/media/logos/default-small.svg"
@@ -251,7 +252,7 @@
 
                                                     <!-- Opción: Inicio -->
                                                     <div class="menu-item mb-5">
-                                                        <a href="index.php" class="menu-link">
+                                                        <a href="/Kima/index.php" class="menu-link">
                                                             <span class="menu-icon">
                                                                 <i class="fas fa-home fs-2"></i>
                                                             </span>
@@ -377,6 +378,7 @@
     <script src="/Kima/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
     <script src="/Kima/assets/js/custom/utilities/modals/create-app.js"></script>
     <script src="/Kima/assets/js/custom/utilities/modals/users-search.js"></script>
+    <script src="/Kima/assets/js/components/menu.js"></script>
     <!--end::Custom Javascript-->
     <!--end::Javascript-->
 </body>
