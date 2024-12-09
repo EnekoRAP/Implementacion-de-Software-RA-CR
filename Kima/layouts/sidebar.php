@@ -126,8 +126,10 @@
                                     <a href="/Kima/pages/clientes.php" class="menu-link">
                                         <span class="menu-title">Clientes</span>
                                         <span class="menu-arrow d-lg-none"></span>
+                                        </a>
                                     </span>
                                     <!--end:Menu link-->
+                               
                                 </div>
                                 <!--begin:Menu item-->
                                 <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
@@ -138,6 +140,7 @@
                                     <a href="/Kima/pages/Tickets.php" class="menu-link">
                                         <span class="menu-title">Tickets</span>
                                         <span class="menu-arrow d-lg-none"></span>
+                                        </a>
                                     </span>
                                     <!--end:Menu link-->
                                 </div>
