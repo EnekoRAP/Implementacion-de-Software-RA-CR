@@ -6,6 +6,7 @@ include '../layout.php'; // Asegúrate de que la ruta sea correcta
 
 <body>
     <!--begin::Main-->
+    <!--begin::Main-->
     <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
         <!--begin::Content wrapper-->
         <div class="d-flex flex-column flex-column-fluid">
@@ -14,7 +15,7 @@ include '../layout.php'; // Asegúrate de que la ruta sea correcta
                 <!--begin::Toolbar container-->
                 <div id="kt_app_toolbar_container" class="app-container container-xxl d-flex flex-stack">
                     <!--begin::Page title-->
-                    <div class="page-title d-flex flex-column justify-content-center flex-wrap me-3">
+                    <div class="page-title d-flex flex-column justify-content-center flex-wrap me-3" style="margin-top: 0; padding-top: 0;">
                         <!--begin::Title-->
                         <h1 class="page-heading d-flex text-gray-900 fw-bold fs-3 flex-column justify-content-center my-0">
                             Tarifario</h1>
