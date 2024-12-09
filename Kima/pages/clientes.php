@@ -85,9 +85,8 @@ include '../layout.php'; // Asegúrate de que la ruta sea correcta
 						role="tablist">
 						<!--begin:::Tab item-->
 						<li class="nav-item" role="presentation">
-							<a class="nav-link text-active-primary pb-4" data-bs-toggle="tab"
-								href="#kt_ecommerce_customer_overview" aria-selected="false" role="tab"
-								tabindex="-1">General</a>
+							<a class="nav-link text-active-primary pb-4 active" data-bs-toggle="tab"
+								href="#kt_ecommerce_customer_overview" aria-selected="true" role="tab">General</a>
 						</li>
 						<!--end:::Tab item-->
 						<!--begin:::Tab item-->
@@ -99,9 +98,33 @@ include '../layout.php'; // Asegúrate de que la ruta sea correcta
 						<!--end:::Tab item-->
 						<!--begin:::Tab item-->
 						<li class="nav-item" role="presentation">
-							<a class="nav-link text-active-primary pb-4 active" data-bs-toggle="tab"
-								href="#kt_ecommerce_customer_advanced" aria-selected="true" role="tab">Ajustes
-								Avanzados</a>
+							<a class="nav-link text-active-primary pb-4" data-bs-toggle="tab"
+								href="#kt_ecommerce_customer_advanced" aria-selected="false" role="tab"
+								tabindex="-1">Ajustes Avanzados</a>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a href="/Kima/pages/ListaClientes.php" class="boton-gris">Visualizar lista clientes</a>
+
+
+							<style>
+								.boton-gris {
+									display: inline-block;
+									padding: 10px 20px;
+									font-size: 16px;
+									color: white;
+									background-color: gray;
+									border: none;
+									border-radius: 5px;
+									text-decoration: none;
+									text-align: center;
+									cursor: pointer;
+									transition: background-color 0.3s ease;
+								}
+
+								.boton-gris:hover {
+									background-color: darkgray;
+								}
+							</style>
 						</li>
 						<!--end:::Tab item-->
 					</ul>
@@ -2179,25 +2202,25 @@ include '../layout.php'; // Asegúrate de que la ruta sea correcta
 	</div>
 	<!--end::Content-->
 	</div>
-    <!--begin::Javascript-->
-    <script>var hostUrl = "/Kima/assets/";</script>
-    <!--begin::Global Javascript Bundle(mandatory for all pages)-->
-    <script src="/Kima/assets/plugins/global/plugins.bundle.js"></script>
-    <script src="/Kima/assets/js/scripts.bundle.js"></script>
-    <!--end::Global Javascript Bundle-->
-    <!--begin::Vendors Javascript(used for this page only)-->
-    <script src="/Kima/assets/plugins/custom/datatables/datatables.bundle.js"></script>
-    <!--end::Vendors Javascript-->
-    <!--begin::Custom Javascript(used for this page only)-->
-    <script src="/Kima/assets/js/custom/apps/file-manager/list.js"></script>
-    <script src="/Kima/assets/js/widgets.bundle.js"></script>
-    <script src="/Kima/assets/js/custom/widgets.js"></script>
-    <script src="/Kima/assets/js/custom/apps/chat/chat.js"></script>
-    <script src="/Kima/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-    <script src="/Kima/assets/js/custom/utilities/modals/create-app.js"></script>
-    <script src="/Kima/assets/js/custom/utilities/modals/users-search.js"></script>
-    <!--end::Custom Javascript-->
-    <!--end::Javascript-->
+	<!--begin::Javascript-->
+	<script>var hostUrl = "/Kima/assets/";</script>
+	<!--begin::Global Javascript Bundle(mandatory for all pages)-->
+	<script src="/Kima/assets/plugins/global/plugins.bundle.js"></script>
+	<script src="/Kima/assets/js/scripts.bundle.js"></script>
+	<!--end::Global Javascript Bundle-->
+	<!--begin::Vendors Javascript(used for this page only)-->
+	<script src="/Kima/assets/plugins/custom/datatables/datatables.bundle.js"></script>
+	<!--end::Vendors Javascript-->
+	<!--begin::Custom Javascript(used for this page only)-->
+	<script src="/Kima/assets/js/custom/apps/file-manager/list.js"></script>
+	<script src="/Kima/assets/js/widgets.bundle.js"></script>
+	<script src="/Kima/assets/js/custom/widgets.js"></script>
+	<script src="/Kima/assets/js/custom/apps/chat/chat.js"></script>
+	<script src="/Kima/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+	<script src="/Kima/assets/js/custom/utilities/modals/create-app.js"></script>
+	<script src="/Kima/assets/js/custom/utilities/modals/users-search.js"></script>
+	<!--end::Custom Javascript-->
+	<!--end::Javascript-->
 </body>
 <!--end::Body-->
 
