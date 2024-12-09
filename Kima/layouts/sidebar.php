@@ -102,7 +102,7 @@
                                         <span class="menu-title">Comunicados</span>
                                     </a>
                                 </div>
-
+                    
                                 <!--end:Menu link-->
 
                                 <!--end:Menu item-->
@@ -123,6 +123,7 @@
                                     class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
                                     <!--begin:Menu link-->
                                     <span class="menu-link">
+                                    <a href="/Kima/pages/clientes.php" class="menu-link">
                                         <span class="menu-title">Clientes</span>
                                         <span class="menu-arrow d-lg-none"></span>
                                     </span>
@@ -134,6 +135,7 @@
                                     class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
                                     <!--begin:Menu link-->
                                     <span class="menu-link">
+                                    <a href="/Kima/pages/Tickets.php" class="menu-link">
                                         <span class="menu-title">Tickets</span>
                                         <span class="menu-arrow d-lg-none"></span>
                                     </span>
@@ -143,23 +145,27 @@
                                 <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
                                     data-kt-menu-placement="bottom-start"
                                     class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
-                                    <!--begin:Menu link-->
-                                    <span class="menu-link">
-                                        <span class="menu-title">Cotizacion</span>
-                                        <span class="menu-arrow d-lg-none"></span>
-                                    </span>
-                                    <!--end:Menu link-->
+                                    <!--begin:Menu item-->
+                                <div class="menu-item me-0 me-lg-2">
+                                   <a href="/Kima/pages/Cotizacion.php" class="menu-link"> 
+                                          <span class="menu-title">Cotización</span> 
+                                    </a>
+                               </div>
+                               <!--end:Menu item-->
+
                                 </div>
                                 <!--begin:Menu item-->
                                 <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
                                     data-kt-menu-placement="bottom-start"
                                     class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
-                                    <!--begin:Menu link-->
-                                    <span class="menu-link">
-                                        <span class="menu-title">Requisitos</span>
-                                        <span class="menu-arrow d-lg-none"></span>
-                                    </span>
-                                    <!--end:Menu link-->
+                                    <!--begin:Menu item-->
+                              <div class="menu-item me-0 me-lg-2">
+                                   <a href="/Kima/pages/Requisitos.php" class="menu-link"> 
+                                         <span class="menu-title">Requisitos</span> 
+                                     </a>
+                             </div>
+                               <!--end:Menu item--> 
+
                                 </div>
                                 <!--begin:Menu item-->
                                 <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
@@ -282,7 +288,7 @@
 
                                                     <!-- Opción: Clientes -->
                                                     <div class="menu-item mb-5">
-                                                        <a href="/Kima/pages/clientes.php" class="menu-link">
+                                                       <a href="/Kima/pages/clientes.php" class="menu-link">
                                                             <span class="menu-icon">
                                                                 <i class="fas fa-users fs-2"></i>
                                                             </span>
@@ -292,7 +298,7 @@
 
                                                     <!-- Opción: Tickets -->
                                                     <div class="menu-item mb-5">
-                                                        <a href="/Kima/pages/tickets.php" class="menu-link">
+                                                        <a href="/Kima/pages/Tickets.php" class="menu-link">
                                                             <span class="menu-icon">
                                                                 <i class="fas fa-ticket-alt fs-2"></i>
                                                             </span>
