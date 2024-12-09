@@ -1290,12 +1290,24 @@ include '../layout.php'; // Asegúrate de que la ruta sea correcta
 								<!--end::Row-->
 								<!--begin::Actions-->
 								<div class="text-center">
-									<a href="/Kima/pages/ListClient.php" class="btn btn-primary">
-										<span class="indicator-label">Confirmar</span>
-									</a>
 									<button type="reset" id="kt_customers_export_cancel"
 										class="btn btn-light me-3">Descartar</button>
+									<button type="submit" id="kt_customers_export_submit" class="btn btn-primary"
+										onclick="redirectToListClient();">
+										<span class="indicator-label">Confirmar</span>
+										<span class="indicator-progress">Por favor espere...
+											<span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+										</span>
+									</button>
 								</div>
+
+								<script>
+									
+									function redirectToListClient() {
+									
+										window.location.href = 'ListClient.php'; 
+									}
+								</script>
 								<!--end::Actions-->
 							</form>
 							<!--end::Form-->
