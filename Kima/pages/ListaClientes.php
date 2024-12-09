@@ -1290,29 +1290,12 @@ include '../layout.php'; // Asegúrate de que la ruta sea correcta
 								<!--end::Row-->
 								<!--begin::Actions-->
 								<div class="text-center">
-									<button type="button" id="kt_customers_export_submit" class="btn btn-primary">
+									<a href="/Kima/pages/ListClient.php" class="btn btn-primary">
 										<span class="indicator-label">Confirmar</span>
-										<span class="indicator-progress" style="display: none;">Por favor espere...
-											<span class="spinner-border spinner-border-sm align-middle ms-2"></span>
-										</span>
-									</button>
+									</a>
+									<button type="reset" id="kt_customers_export_cancel"
+										class="btn btn-light me-3">Descartar</button>
 								</div>
-
-								<script>
-									document.getElementById('kt_customers_export_submit').addEventListener('click', function () {
-										
-										const indicatorProgress = this.querySelector('.indicator-progress');
-										const indicatorLabel = this.querySelector('.indicator-label');
-										indicatorLabel.style.display = 'none'; 
-										indicatorProgress.style.display = 'inline-block'; 
-
-									    {
-											window.location.href = '/Kima/pages/ListClient.php'; 
-										}, 
-										 
-									});
-									
-								</script>
 								<!--end::Actions-->
 							</form>
 							<!--end::Form-->
