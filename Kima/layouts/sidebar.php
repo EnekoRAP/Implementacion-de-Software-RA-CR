@@ -117,33 +117,37 @@
                                     </span>
                                     <!--end:Menu link-->
                                 </div>
+
                                 <!--begin:Menu item-->
                                 <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
                                     data-kt-menu-placement="bottom-start"
                                     class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
-                                    <!--begin:Menu link-->
-                                    <span class="menu-link">
-                                    <a href="/Kima/pages/clientes.php" class="menu-link">
-                                        <span class="menu-title">Clientes</span>
-                                        <span class="menu-arrow d-lg-none"></span>
-                                        </a>
-                                    </span>
-                                    <!--end:Menu link-->
-                               
+                                    <!--begin:Menu item-->
+                                <div class="menu-item me-0 me-lg-2">
+                                   <a href="/Kima/pages/clientes.php" class="menu-link"> 
+                                          <span class="menu-title">Clientes</span> 
+                                    </a>
+                               </div>
+                               <!--end:Menu item-->
                                 </div>
+
+
+
                                 <!--begin:Menu item-->
                                 <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
                                     data-kt-menu-placement="bottom-start"
                                     class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
-                                    <!--begin:Menu link-->
-                                    <span class="menu-link">
-                                    <a href="/Kima/pages/Tickets.php" class="menu-link">
-                                        <span class="menu-title">Tickets</span>
-                                        <span class="menu-arrow d-lg-none"></span>
-                                        </a>
-                                    </span>
-                                    <!--end:Menu link-->
+                                    <!--begin:Menu item-->
+                                <div class="menu-item me-0 me-lg-2">
+                                   <a href="/Kima/pages/Tickets.php" class="menu-link"> 
+                                          <span class="menu-title">Tickets</span> 
+                                    </a>
+                               </div>
+                               <!--end:Menu item-->
                                 </div>
+
+
+
                                 <!--begin:Menu item-->
                                 <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
                                     data-kt-menu-placement="bottom-start"
@@ -155,8 +159,9 @@
                                     </a>
                                </div>
                                <!--end:Menu item-->
-
                                 </div>
+
+
                                 <!--begin:Menu item-->
                                 <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
                                     data-kt-menu-placement="bottom-start"
