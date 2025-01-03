@@ -4,7 +4,7 @@
 
 <head>
     <base href="../" />
-    <title>Metronic</title>
+    <title>Kima</title>
     <meta charset="utf-8" />
     <meta name="description"
         content="The most advanced Tailwind CSS & Bootstrap 5 Admin Theme with 40 unique prebuilt layouts on Themeforest trusted by 100,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue, Asp.Net Core, Rails, Spring, Blazor, Django, Express.js, Node.js, Flask, Symfony & Laravel versions. Grab your copy now and get life-time updates for free." />
@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
-    <link rel="canonical" href="http://preview.keenthemes.comlayouts/dark-sidebar.html" />
+    <link rel="canonical" href="http://preview.keenthemes.comlayouts/dark-sidebar.php" />
     <link rel="shortcut icon" href="/Kima/assets/media/logos/favicon.ico" />
     <!--begin::Fonts(mandatory for all pages)-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
@@ -64,7 +64,7 @@
                     <!--end::Sidebar mobile toggle-->
                     <!--begin::Mobile logo-->
                     <div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
-                        <a href="index.html" class="d-lg-none">
+                        <a href="index.php" class="d-lg-none">
                             <img alt="Logo" src="/Kima/assets/media/logos/default-small.svg" class="h-30px" />
                         </a>
                     </div>
@@ -111,10 +111,11 @@
                                     data-kt-menu-placement="bottom-start"
                                     class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
                                     <!--begin:Menu link-->
-                                    <span class="menu-link">
-                                        <span class="menu-title">Contactos</span>
-                                        <span class="menu-arrow d-lg-none"></span>
-                                    </span>
+                                    <div class="menu-item me-0 me-lg-2">
+                                        <a href="/Kima/pages/Contactos.php" class="menu-link"> 
+                                            <span class="menu-title">Contactos</span>
+                                        </a>
+                                    </div>
                                     <!--end:Menu link-->
                                 </div>
 
@@ -180,10 +181,11 @@
                                     data-kt-menu-placement="bottom-start"
                                     class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
                                     <!--begin:Menu link-->
-                                    <span class="menu-link">
-                                        <span class="menu-title">Tarifario</span>
-                                        <span class="menu-arrow d-lg-none"></span>
-                                    </span>
+                                    <div class="menu-item me-0 me-lg-2">
+                                        <a href="/Kima/pages/Tarifario.php" class="menu-link"> 
+                                            <span class="menu-title">Tarifario</span> 
+                                        </a>
+                                    </div>
                                     <!--end:Menu link-->
                                 </div>
                             </div>

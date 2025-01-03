@@ -1,0 +1,5 @@
+CREATE DATABASE Kima;
+GO
+
+USE Kima;
+GO
